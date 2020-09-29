@@ -199,7 +199,7 @@ function App() {
             </p>
             <p>
               Finally, what do we do if Fox and Scully find out what happened to
-              our abducted team? Will we believe them? The truth is out there.
+              our abducted team? Will we believe them?
             </p>
             <img
               src={theTruthIsOutThere}
