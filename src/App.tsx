@@ -26,20 +26,20 @@ function App() {
             </p>
             <p>
               Candidates who pass the phone screen will be brought in for a day
-              to pair with us. This is the hiring strategy ThoughtBot used for a
-              while, it allows us to really get a sense for what it will be like
-              working with the candidate, and make sure they will enjoy working
-              with us. Additionally, because pairing is such a large part of our
-              development process it will be advantageous to vet candidates
-              fully in this area. We will make a decision from a half day of
-              pairing if we want to extend an offer.
+              to pair with us. This is the hiring strategy ThoughtBot uses
+              because it shows us what it would be like working with the
+              candidate in the role we are hiring for. Additionally, because
+              pairing is such a large part of our development process it will be
+              advantageous to vet candidates fully in this area. We will make a
+              decision afterwards about whether or not we want to extend an
+              offer.
             </p>
             <p>
               We recognize this process is not without its problems, but it
               pragmatically balances our need to hire and ramp quickly, and get
               the most signal we can from potential candidates. One concern is
-              if candidates will be turned off by an unpaid four hours of work,
-              we might want to consider a form of compensation.
+              that candidates might be turned off by an unpaid day of work, we
+              might want to consider a form of compensation.
             </p>
             <h2>Greenfield Rebuild</h2>
             <p>
@@ -97,7 +97,7 @@ function App() {
               Testing will be embedded in our development process from day one.
               The use of UI-driven tests that render slices of our components
               allows us to ensure the user experience matches our expectations,
-              while freeing the developer us to refactor component boundaries as
+              while freeing our engineers to refactor component boundaries as
               needed.
             </p>
             <p>
@@ -171,13 +171,28 @@ function App() {
               The second is about the need for server-side rendering. Though our
               app heavily relies on JavaScript, should it still function without
               it to at least hydrate information? If so we would want to
-              consider a library like Next.js.
+              consider a library like{" "}
+              <a
+                href="https://nextjs.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Next.js
+              </a>
+              .
             </p>
             <p>
               We also are missing information about our build and deployment
               process, do we have QA testers to vet releases? If not we might
-              want to consider creating end-to-end smoke tests with Cypress to
-              automate the critical paths through our application and ensure
+              want to consider creating end-to-end smoke tests with{" "}
+              <a
+                href="https://www.cypress.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Cypress
+              </a>{" "}
+              to automate the critical paths through our application and ensure
               that every release maintains our high standards that our customers
               expect from us.
             </p>
