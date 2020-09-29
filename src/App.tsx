@@ -201,7 +201,10 @@ function App() {
               Finally, what do we do if Fox and Scully find out what happened to
               our abducted team? Will we believe them? The truth is out there.
             </p>
-            <img src={theTruthIsOutThere} alt="The truth is out there" />
+            <img
+              src={theTruthIsOutThere}
+              alt="X-Files poster showing the message The Truth Is Out There"
+            />
           </article>
         </main>
       </div>
