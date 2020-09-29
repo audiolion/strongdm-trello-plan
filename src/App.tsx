@@ -1,4 +1,5 @@
 import React from "react";
+import theTruthIsOutThere from "./the-truth-is-out-there.jpg";
 
 function App() {
   return (
@@ -200,6 +201,7 @@ function App() {
               Finally, what do we do if Fox and Scully find out what happened to
               our abducted team? Will we believe them? The truth is out there.
             </p>
+            <img src={theTruthIsOutThere} alt="The truth is out there" />
           </article>
         </main>
       </div>
